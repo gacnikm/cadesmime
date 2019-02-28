@@ -3,7 +3,7 @@ import smtplib
 from email.mime.image import MIMEImage
 from email.mime.text import MIMEText
 
-from cadesmime import CADESMIMESignature
+from cadesmime.cadesmime import CADESMIMESignature
 
 #create message and add required email data
 message = CADESMIMESignature() # or CADESMIMEmbedded
